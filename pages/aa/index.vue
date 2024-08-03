@@ -2,9 +2,6 @@
 	<swiper class="swiper" :indicator-dots="true" :autoplay="false" :duration="300" interval="2000" :vertical="true"
 		duration="500" :current="currentIndex" @change="handleSwiperChange">
 		<swiper-item class="swiper-item" v-for="(item, index) in dataList" :key="index">
-			{{currentIndex-1}}
-			{{currentIndex+1}}
-			{{index}}
 			<view v-if="index>currentIndex-2&&index<currentIndex+2">
 				<media></media>
 			</view>
@@ -26,7 +23,6 @@
 			media
 		},
 		onLoad() {
-			this.addNewData();
 			this.addNewData();
 		},
 		methods: {
@@ -57,7 +53,7 @@
 <style>
 	.swiper {
 		width: 100%;
-		height: 100vh;
+		height: 100%;
 	}
 
 	.swiper-item {

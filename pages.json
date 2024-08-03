@@ -7,6 +7,13 @@
 				"disableScroll": true
 			}
 
+		},
+		{
+			"path": "pages/aa/index",
+			"style": {
+				"navigationStyle": "custom",
+				"disableScroll": true
+			}
 		}
 	],
 	"globalStyle": {
@@ -25,16 +32,8 @@
 				"text": "首页"
 			},
 			{
-				"pagePath": "pages/index/index",
+				"pagePath": "pages/aa/index",
 				"text": "动态"
-			},
-			{
-				"pagePath": "pages/index/index",
-				"text": "消息"
-			},
-			{
-				"pagePath": "pages/index/index",
-				"text": "我的"
 			}
 		]
 	}
