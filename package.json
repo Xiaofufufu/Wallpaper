@@ -1,0 +1,6 @@
+{
+	"dependencies": {
+		"lottie-miniprogram": "^1.0.12",
+		"lottie-web": "^5.12.2"
+	}
+}
